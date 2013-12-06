@@ -1,0 +1,40 @@
+body {padding-top: 10px; padding-bottom: 40px; background-color: #eee;}
+#rightsPanel,
+#rightsPanel-ta {display: none;}
+#rightsPanel.on, 
+#rightsPanel-ta.on {display: block;}
+#rightsPanel td, 
+#rightsPanel-ta td {cursor: pointer;}
+#rightsPanel td.active,
+#rightsPanel-ta td.active {background: #428bca; color: #fff;}
+.tag {font-size: 16px; cursor: pointer;}
+.bootstrap-tagsinput {width: 100%;}
+#currEditing span {font-weight: bold; line-height: 34px;}
+.col-md-8 {padding-right: 0px;}
+.up {text-transform: uppercase; background: #ccf; padding: 10px; margin: 0; text-align: right; border-radius: 3px; border: 1px solid #ccc;}
+.label-success {background-color: #468847;}
+#filterPane .form-control {width: auto;}
+
+.badge {
+  padding: 1px 9px 2px;
+  font-size: 12.025px;
+  font-weight: bold;
+  white-space: nowrap;
+  color: #ffffff;
+  background-color: #999999;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+a.list-group-item.active .badge-primary,
+.badge-primary {background-color: #428bca; border: 1px solid white;}
+a.list-group-item.active .badge-error,
+.badge-error {background-color: #b94a48; border: 1px solid white;}
+a.list-group-item.active .badge-warning,
+.badge-warning {background-color: #f89406; border: 1px solid white;}
+a.list-group-item.active .badge-success,
+.badge-success {background-color: #468847; border: 1px solid white;}
+a.list-group-item.active .badge-info,
+.badge-info {background-color: #3a87ad; border: 1px solid white;}
+a.list-group-item.active .badge-inverse,
+.badge-inverse {background-color: #333333; border: 1px solid white;}
